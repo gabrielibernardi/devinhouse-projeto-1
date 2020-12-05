@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="css/style.css">
+<script src="scripts/main.js" defer></script>
+<link rel="shortcut icon" href="img/to-do-list-color.png">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList - sua lista de afazeres</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/to-do-list.png" alt="logo da ToDoList">
+        <div>
+            <p>ToDoList </p>
+            <p class="subtitle">sua lista de afazeres</p>
+        </div>
+    </header>
+    <section class="container">
+        <div class="insert">
+            <textarea name="insertTask" id="insertTask" rows="2"
+                placeholder="Insira aqui a sua tarefa"></textarea>
+            <button id="btnAdd">Adicionar</button>
+        </div>
+        <div>
+            <ul id="taskList"></ul>        
+        </div>
+    </section>
+</body>
+
+</html>
