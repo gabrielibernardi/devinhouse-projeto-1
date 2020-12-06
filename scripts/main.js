@@ -2,7 +2,6 @@ var btnAdd = document.getElementById("btnAdd")
 var userTasks = []
 
 function createElement(object, taskNumber) {
-    console.log(object)
     var list = document.getElementById("taskList")
 
     var taskItem = document.createElement("li")
